@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<html class="no-js" lang="en">
+
+<!-- Mirrored from 99webpage.com/theme-review/html/anakual/error404.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Oct 2017 12:29:33 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow">
+    <link rel="icon" href="ico/favicon.png">
+
+    <title>Anakual multipurpose and responsive corporate template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- RS5.0 Main Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
+	
+	<!-- RS5.0 Layers and Navigation Styles -->
+	<link rel="stylesheet" type="text/css" href="css/revolution/layers.css">
+	<link rel="stylesheet" type="text/css" href="css/revolution/navigation.css"> 
+	
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Color -->
+    <link id="skin" href="skins/default.css" rel="stylesheet">
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+	
+ 	<!-- Start demo options -->
+	<div class="demo-panel">
+		<div class="demo-col">
+			<h5>Try anakual with other template and color skins</h5>
+			<h6>Index variants</h6>
+			<select onchange="location = this.options[this.selectedIndex].value;" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+				<optgroup label="Corporate">
+					<option value="index.html">Corporate alt1</option>
+					<option value="index-corporate-alt1.html">Corporate alt2</option>
+					<option value="index-corporate-alt2.html">Corporate alt3</option>
+					<option value="index-corporate-alt3.html">Corporate alt4</option>
+					<option value="index-corporate-alt4.html">Corporate alt5</option>
+					<option value="index-corporate-alt5.html">Corporate alt6</option>
+					<option value="index-corporate-alt6.html">Corporate alt7</option>
+					<option value="index-corporate-alt7.html">Corporate alt8</option>
+					<option value="index-corporate-alt8.html">Corporate alt9</option>
+					<option value="index-corporate-alt9.html">Corporate alt10</option>
+				</optgroup>
+				<optgroup label="Creative">
+					<option value="index-creative-alt1.html">Creative alt1</option>
+					<option value="index-creative-alt2.html">Creative alt2</option>
+					<option value="index-creative-alt3.html">Creative alt3</option>
+					<option value="index-creative-alt4.html">Creative alt4</option>
+					<option value="index-creative-alt5.html">Creative alt5</option>
+					<option value="index-creative-alt6.html">Creative alt6</option>
+					<option value="index-creative-alt7.html">Creative alt7</option>
+					<option value="index-creative-alt8.html">Creative alt8</option>
+				</optgroup>
+				<optgroup label="Niche template">
+					<option value="index-niche-app.html">App</option>
+					<option value="index-niche-construction.html">Construction</option>
+					<option value="index-niche-ecommerce.html">Ecommerce</option>
+					<option value="index-niche-medical.html">Medical</option>
+					<option value="index-niche-photography.html">Photography</option>
+					<option value="index-niche-realestate.html">Real estate</option>
+					<option value="index-niche-restaurant.html">Restaurant</option>
+					<option value="index-niche-travel.html">Travel</option>
+					<option value="index-niche-furniture.html">Furniture</option>
+					<option value="index-niche-magazine.html">Magazine</option>
+				</optgroup>
+				<optgroup label="Speciality page">
+					<option value="resume.html">Resume page</option>
+					<option value="underconstruction.html">Under construction</option>
+					<option value="maintenance.html">Maintenance</option>
+					<option value="error404.html">Error 404</option>
+				</optgroup>
+				<optgroup label="Landing page">
+					<option value="index-landingpage.html">Landing page video</option>
+					<option value="index-landingpage-alt1.html">Landing page form</option>
+				</optgroup>
+			</select>
+		</div>
+		<div class="demo-col">
+			<h6>Color options</h6>
+			<ul class="stylechanger">
+				<li><a id="color1" href="#" data-skin="default.html"></a><span>Default</span></li>
+				<li><a id="color2" href="#" data-skin="yellow.html"></a><span>Yellow</span></li>
+				<li><a id="color3" href="#" data-skin="brown.html"></a><span>Brown</span></li>
+				<li><a id="color4" href="#" data-skin="red.html"></a><span>Red</span></li>
+				<li><a id="color5" href="#" data-skin="green.html"></a><span>Maroon</span></li>
+				<li><a id="color6" href="#" data-skin="misty.html"></a><span>Magenta</span></li>
+				<li><a id="color7" href="#" data-skin="pink.html"></a><span>Pink</span></li>
+				<li><a id="color8" href="#" data-skin="purple.html"></a><span>Purple</span></li>
+				<li><a id="color9" href="#" data-skin="blue.html"></a><span>Blue</span></li>
+				<li><a id="color10" href="#" data-skin="sky-blue.html"></a><span>Sky</span></li>
+			</ul>
+		</div>
+	</div>	
+	<a class="openpanel" href="#" title=""></a>
+	<!-- End demo options --> 
+	
+	<!-- Start speciality page -->
+	<div class="speciality-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<img src="img/img404.png" class="img-responsive" alt="" />
+					<div class="error-wrapp">
+						<h1>Page not found</h1>
+						<p>If you want return to the homepage, please <a href="index.html">Click here</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End speciality page -->
+	
+	<!-- Start to top -->  
+    <a href="#" class="toTop">
+        <i class="fa fa-chevron-up"></i>
+    </a>  
+    <!-- End to top -->
+
+	<!-- START JAVASCRIPT -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing-1.3.min.js"></script>
+	
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+    <!-- Bootsnavs -->
+    <script src="js/bootsnav.js"></script>
+	
+	<!-- Custom form -->
+	<script src="js/form/jcf.js"></script>
+	<script src="js/form/jcf.scrollable.js"></script>
+	<script src="js/form/jcf.select.js"></script>
+	
+	<!-- Custom checkbox and radio -->
+	<script src="js/checkator/fm.checkator.jquery.js"></script>
+	<script src="js/checkator/setting.js"></script>
+	
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+	
+	<!-- Theme option-->
+	<script src="js/template-option/demosetting.js"></script>	
+</body>
+
+<!-- Mirrored from 99webpage.com/theme-review/html/anakual/error404.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Oct 2017 12:29:39 GMT -->
+</html>
