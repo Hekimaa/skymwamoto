@@ -104,9 +104,8 @@ ul.post-meta li a:focus,
 .social-network a:hover,
 footer.white-footer .social-network a:hover,
 .recent-post-list li a:hover,
-.img-caption h4 span,
 
-.img-content h4 a:hover,
+
 .img-caption .network a:hover,
 .process-column-head span,
 .shop-title .price,
@@ -332,8 +331,12 @@ nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li.active a.btn,
 	background-color:#062C17;
 }
 
-.thumbnail .img-wrapper h5{
+.thumbnail .img-wrapper  h5{
 	background-color:#062C17;
+}
+
+.img-content h4   {
+    background-color:#062C17;
 }
 
 nav.navbar.navbar-default.bootsnav ul.cart-list > li.total > .btn:hover,
