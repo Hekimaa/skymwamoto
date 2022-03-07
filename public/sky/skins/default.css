@@ -64,34 +64,7 @@ ul.top-link li a:hover,
 .panel-group .panel .panel-heading .panel-title a:hover,
 .panel-group .panel .panel-heading .panel-title a:focus,
 .panel-group .panel .panel-heading .panel-title a:active,
-nav.navbar.navbar-inverse.bootsnav .attr-nav > ul > li > a:hover,
-nav.navbar.bootsnav ul.nav > li > a:hover,
-nav.navbar.bootsnav ul.nav > li > a:focus,
-nav.navbar.bootsnav ul.nav > li > a:active,
-nav.navbar.bootsnav ul.nav > li.active > a,
-nav.navbar.bootsnav ul.nav > li.active > a:hover,
-nav.navbar.bootsnav ul.nav > li.active > a:focus,
-nav.navbar.bootsnav ul.nav > li.active > a:active,
-nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a:hover,
-nav.navbar-sidebar ul.nav li.dropdown.on > a,
-nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title,
-nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover,
-nav.navbar ul.nav li.dropdown.on > a,
-nav.navbar.navbar-inverse ul.nav li.dropdown.on > a,
-nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a,
-nav.navbar .dropdown .megamenu-content .col-menu.on .title,
-nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a:hover,
-nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a:focus,
-nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a:active,
-nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
-nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:focus,
-nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:active,
-nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:hover,
-nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:focus,
-nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:active,
-nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
-nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:focus,
-nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:active,
+
 .btn-primary.btn-bordered,
 .rev_slider_wrapper:hover .hermes.tparrows:hover,
 .hermes.tparrows:hover:before,
@@ -132,9 +105,7 @@ ul.post-meta li a:focus,
 footer.white-footer .social-network a:hover,
 .recent-post-list li a:hover,
 .img-caption h4 span,
-nav.navbar.bootsnav .navbar-toggle:hover,
-nav.navbar.bootsnav .navbar-toggle:focus,
-nav.navbar.bootsnav .navbar-toggle:active,
+
 .img-content h4 a:hover,
 .img-caption .network a:hover,
 .process-column-head span,
@@ -187,6 +158,47 @@ ul.proprty-content li .fa,
 	color:#f7482c;
 }
 
+
+nav.navbar.bootsnav ul.nav > li > a:focus,
+nav.navbar.bootsnav ul.nav > li > a:active,
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li.active > a:hover,
+nav.navbar.bootsnav ul.nav > li.active > a:focus,
+nav.navbar.bootsnav ul.nav > li.active > a:active,
+nav.navbar-sidebar ul.nav li.dropdown.on > a,
+nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title,
+
+nav.navbar ul.nav li.dropdown.on > a,
+nav.navbar.navbar-inverse ul.nav li.dropdown.on > a,
+nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a,
+nav.navbar .dropdown .megamenu-content .col-menu.on .title,
+
+nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a:focus,
+
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:focus,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:active,
+
+nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:focus,
+nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:active,
+nav.navbar.bootsnav .navbar-toggle:hover,
+nav.navbar.bootsnav .navbar-toggle:focus,
+nav.navbar.bootsnav .navbar-toggle:active,
+
+nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:focus,
+nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:active{
+    color: white;
+}
+
+nav.navbar.navbar-inverse.bootsnav .attr-nav > ul > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a:hover,
+nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.navbar-inverse.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a:hover,
+nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a:hover,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+nav.navbar.navbar-inverse.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover{
+    color: #FFFFB8;
+}
 /*
 Primary background
 =========================== */

@@ -1,0 +1,31 @@
+CRITICAL - 2022-03-07 05:03:54 --> Undefined variable: cat
+#0 C:\xampp\htdocs\skymwamoto\app\Views\toursandsafari\tours_and_safari_route_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\skymwamoto\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skymwamoto\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skymwamoto\system\Common.php(1097): CodeIgniter\View\View->render('toursandsafari/...', Array, true)
+#4 C:\xampp\htdocs\skymwamoto\app\Controllers\Tours_and_Safaris.php(195): view('toursandsafari/...', Array)
+#5 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(824): App\Controllers\Tours_and_Safaris->tours_and_safaris_details('js', 'twitter', 'api', 'tweet.php')
+#6 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours_and_Safaris))
+#7 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skymwamoto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 05:04:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skymwamoto\app\Views\destinations\destinations_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\skymwamoto\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skymwamoto\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skymwamoto\system\Common.php(1097): CodeIgniter\View\View->render('destinations/de...', Array, true)
+#4 C:\xampp\htdocs\skymwamoto\app\Controllers\Destinations.php(220): view('destinations/de...', Array)
+#5 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(824): App\Controllers\Destinations->single_destinations('js', 'twitter', 'api', 'tweet.php')
+#6 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Destinations))
+#7 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skymwamoto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 06:59:51 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\skymwamoto\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\skymwamoto\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skymwamoto\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\skymwamoto\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\skymwamoto\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\skymwamoto\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\skymwamoto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

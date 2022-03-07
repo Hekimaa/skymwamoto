@@ -182,59 +182,14 @@
 	</div>
 	<!-- END OF SLIDER WRAPPER -->
 
+
+
+
     <!-- Start contain wrapp -->
-	<div class="contain-wrapp gray-container padding-bot70">	
-		<div class="container">
-			<div class="row margintop20">
-				<div class="col-md-6 marginbot30">
-					<!-- Start video wrapp -->
-                    <div class="video-wrapper">
-                        <div class="play-icon small"><a href="#"><i class="fa fa-play"></i></a></div>
-                        <img src="<?= base_url()?>/sky/img/video-half.jpg" class="img-responsive" alt="" />
-                        <div id="video1" class="jp-jplayer video"
-                             data-media="video"
-                             data-title="Big Buck Bunny"
-                             data-m4v="video/idea.m4v"
-                             data-ogv="video/idea.ogv"
-                             data-webmv="video/idea.webm"
-                             data-container="#jp_container2"></div>
-                        <div id="jp_container2" class="jp-audio">
-                            <table class="table-audio">
-                                <tr>
-                                    <td class="toggle-play">
-                                        <a href="#" class="jp-play"><i class="fa fa-play-circle"></i></a>
-                                        <a href="#" class="jp-pause"><i class="fa fa-pause"></i></a>
-                                    </td>
-                                    <td class="time"><span class="jp-current-time"></span></td>
-                                    <td class="Progres-audio">
-                                        <div class="jp-progress">
-                                            <div class="jp-seek-bar">
-                                                <div class="jp-play-bar"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="time"><span class="jp-duration"></span></td>
-                                    <td class="toggle-mute">
-                                        <a href="#" class="jp-unmute"><i class="fa fa-volume-up"></i></a>
-                                          <a href="#" class="jp-mute"><i class="fa fa-volume-down"></i></a>
-                                    </td>
-                                    <td class="volume-bar">
-                                        <div class="jp-volume-bar">
-                                            <div class="jp-volume-bar-value"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <div class="jp-no-solution">
-                                <strong>Update Required</strong>
-                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                            </div>
-                        </div>  
-                    </div>
-                    <!-- End video wrapp -->
-				</div>
-				 <!-- Start contain wrapp -->
-	     <div class="contain-wrapp">	
+	<div class="contain-wrapp gray-container"style="padding-top:5px">	
+		<div class="container">	
+     	 <!-- Start contain wrapp -->
+	     <div class="contain-wrapp" >	
 		    <div class="container">
 			<div class="row">
 				<div class="col-md-6" style="font-size: 16px;">
@@ -255,7 +210,7 @@
     <!-- End contain wrapp -->
 
     <!-- Start contain wrapp -->
-	<div class="contain-wrapp padding-bot10" style="padding-top:2px;">	
+	<div class="contain-wrapp " style="padding-top:2px;">	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">

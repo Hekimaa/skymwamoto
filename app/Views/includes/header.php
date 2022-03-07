@@ -5,7 +5,7 @@
         <div class="container">            
             <!-- Start Header Navigation -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" style="color:white" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="<?= base_url('/home')?>"><img src="<?= base_url()?>/sky/img/gooood.png" style="height:60px;" class="logo" alt=""></a>

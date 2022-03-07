@@ -111,7 +111,7 @@ nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
 
 nav.navbar.bootsnav ul.nav ul.dropdown-menu > li > a{
     white-space:normal;
-	color:red;
+	color:white;
 	font-weight:300;
 }
 
@@ -765,7 +765,7 @@ ul.top-link li a.signup:active{
         border-radius: 0px;
         padding: 0;
         width: 200px;
-        background:#FFFFB8;
+        background:#062C17;
         border: solid 1px #e0e0e0;
         border-top: solid 5px;
     }
@@ -803,6 +803,7 @@ ul.top-link li a.signup:active{
     }
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title{
 		font-weight:700;
+        color:#FFFFB8;
 	}
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu ul.dropdown-menu{
         top: -3px;
@@ -850,7 +851,7 @@ ul.top-link li a.signup:active{
         width: 100%;
         margin-bottom: 0;
         border-bottom: none;
-        color:red;
+        color:white;
     }
     
     nav.navbar.bootsnav.on ul.dropdown-menu.megamenu-content .content{
