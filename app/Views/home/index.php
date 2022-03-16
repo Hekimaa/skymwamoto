@@ -192,9 +192,9 @@
 	     <div class="contain-wrapp" >	
 		    <div class="container">
 			<div class="row">
-				<div class="col-md-6" style="font-size: 16px; text-align:justify;">
+				<div class="col-md-6" style="font-size: 16px;">
 					
-					<b >SKYMWAMOTO TOURS AND SAFARI</b> was established in 2014, as a family business, and like most small businesses had a fine reputation for personalized service. Today, SkyMwamoto tours is rated as one of the leading tour operators in Tanzania, receiving thousands of visitors a year but our motivation is exactly the same to treat all visitors as our personal guests. We have invested substantially to maintain the efficiency and the personalized service that has been our foundation and is now the Skymwamoto Tours tradition and trademark. We focused our attention on training and upgrading the personnel, opening offices in key tourist centers, expanding and modernizing our workshop facilities, increasing the quantity and quality of our vehicles, and installing the necessary equipment for smooth communication with the outside world and linking our operations countrywide.
+					<b>SKYMWAMOTO TOURS AND SAFARI</b> was established in 2014, as a family business, and like most small businesses had a fine reputation for personalized service. Today, SkyMwamoto tours is rated as one of the leading tour operators in Tanzania, receiving thousands of visitors a year but our motivation is exactly the same to treat all visitors as our personal guests. We have invested substantially to maintain the efficiency and the personalized service that has been our foundation and is now the Skymwamoto Tours tradition and trademark. We focused our attention on training and upgrading the personnel, opening offices in key tourist centers, expanding and modernizing our workshop facilities, increasing the quantity and quality of our vehicles, and installing the necessary equipment for smooth communication with the outside world and linking our operations countrywide.
 				
 				</div>
 				<div class="col-md-6">
