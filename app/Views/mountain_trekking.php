@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>SKYWAMOTO - Admin dashboard Mountain Trekking</title>
+  <title>Mountain Trekking</title>
 	
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -49,7 +49,7 @@
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
-        <li class="breadcrumb-item active">Destinations</li>
+        <li class="breadcrumb-item active">Mountain Trekking</li>
       </ol>
 		<!-- Example DataTables Card-->
       <div class="card mb-3">
@@ -57,11 +57,11 @@
         <div class="col text-left">
             <button type="button" name="addDestinations" id="addDestinations" class="btn btn-info btn-sm">Add Mountain Trekking</button>
           </div>
-        <div class="card-body">
+        <div class="card-body" style="background-color:#062C17;">
          
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
+              <thead style="background-color:white;">
                 <tr>
                   <th>SN</th>
                   <th>Image</th>
@@ -79,13 +79,13 @@
                       <?php if($trekking) { ?>
                       <?php foreach($trekking as $cat): ?>
                         <tr>
-                         <td><?php echo $sn++; ?></td>
+                         <td style="color:white"><?php echo $sn++; ?></td>
                         <td><img src="<?= base_url('uploads/mountain_images/'.$cat['mountain_image']) ?>" alt="image" width="50px" height="50px"></td> 
                         
-                        <td><?php echo $cat['mountain_title']; ?></td> 
-                        <td><?php echo $cat['mountain_price']; ?></td> 
-                        <td><?php echo $cat['mountain_days']; ?></td> 
-                        <td><?php echo $cat['mountain_description']; ?></td>
+                        <td style="color:white" ><?php echo $cat['mountain_title']; ?></td> 
+                        <td style="color:white"><?php echo $cat['mountain_price']; ?></td> 
+                        <td style="color:white"><?php echo $cat['mountain_days']; ?></td> 
+                        <td style="color:white"><?php echo $cat['mountain_description']; ?></td>
                         <td>
                               <button class="btn btn-warning  edit" data-id="<?php echo $cat['id']; ?>">Edit</button>
                               <button class="btn btn-danger  delete" data-id="<?php echo $cat['id']; ?>" >Delete</button>

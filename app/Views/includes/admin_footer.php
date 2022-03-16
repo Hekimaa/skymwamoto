@@ -4,4 +4,4 @@
           <large>SKYMWAMOTO 2021</large>
         </div>
       </div>
-    </footer>
+</footer>

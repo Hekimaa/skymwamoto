@@ -10,7 +10,7 @@
   <title>PANAGEA - Admin dashboard</title>
 	
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
   <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
@@ -35,12 +35,7 @@
 
 <body class="fixed-nav sticky-footer" id="page-top">
 
-
-
-
-
     <?= $this->include('includes/sidebar');?>
-
 
   <!-- /Navigation-->
   <div class="content-wrapper">
@@ -120,13 +115,6 @@
         </div>
 		</div>
 		<!-- /cards -->
-		<h2></h2>
-		<div class="box_general padding_bottom">
-			<div class="header_box version_2">
-				<h2><i class="fa fa-bar-chart"></i>Statistic</h2>
-			</div>
-		 <canvas id="myAreaChart" width="100%" height="30" style="margin:45px 0 15px 0;"></canvas>
-		</div>
 	  </div>
 	  <!-- /.container-fluid-->
    	</div>

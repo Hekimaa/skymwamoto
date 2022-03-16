@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>SKYMWAMOTO - Admin dashboard Hotels</title>
+  <title>Hotels</title>
 	
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -57,11 +57,11 @@
         <div class="col text-left">
             <button type="button" name="addDestinations" id="addDestinations" class="btn_1">Add Hotels</button>
           </div>
-        <div class="card-body">
+        <div class="card-body" style="background-color:#062C17;">
          
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
+              <thead style="background-color:white;">
                 <tr>
                   <th>SN</th>
                   <th>Image</th>
@@ -75,7 +75,7 @@
                 </tr>
               </thead>
            
-              <tbody>
+              <tbody style="color:white;">
                       <?php $sn =1;?>
                       <?php if($hotels) { ?>
                       <?php foreach($hotels as $cat): ?>

@@ -10,7 +10,7 @@
     <title>SKYMWAMOTO | LOGIN </title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="<?= base_url()?>/skytour/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url()?>/skytour/img/favicons.ico" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour/img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour/img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour/img/apple-touch-icon-114x114-precomposed.png">
@@ -61,7 +61,7 @@
 
 		<aside>
 			<figure>
-				<a href="<?= base_url('/logins')?>"><img src="<?= base_url()?>/skytour/img/logo.jpg" width="155" height="50" data-retina="true" alt="" class="logo_sticky"></a>
+				<a href="<?= base_url('/logins')?>"><img src="<?= base_url()?>/skytour/img/logooo.png" style="width:100px;" height="50" data-retina="true" alt="" class="logo_sticky"></a>
 			</figure>
 			<?php
                    if(isset($validation)):?>

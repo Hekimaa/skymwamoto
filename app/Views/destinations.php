@@ -10,11 +10,11 @@
   <title>SKYMWAMOTO - Admin dashboard</title>
 	
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -42,7 +42,7 @@
 
   <!-- /Navigation-->
   <!-- /Navigation-->
-  <div class="content-wrapper">
+  <div class="content-wrapper" >
     <div class="container-fluid">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
@@ -57,11 +57,11 @@
         <div class="col text-left">
             <button type="button" name="addDestinations" id="addDestinations" class="btn_1">Add Destinations</button>
           </div>
-        <div class="card-body">
+        <div class="card-body" style="background-color:#062C17;">
          
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
+              <thead style="background-color:white;">
                 <tr>
                   <th>SN</th>
                   <th>Image</th>
@@ -78,11 +78,11 @@
                       <?php if($destinations) { ?>
                       <?php foreach($destinations as $cat): ?>
                       <tr>
-                         <td><?php echo $sn++; ?></td>
+                         <td style="color:white"><?php echo $sn++; ?></td>
                         <td><img src="<?= base_url('uploads/destinations_image/'.$cat['destinations_image']) ?>" alt="image" width="50px" height="50px"></td> 
                         
-                        <td><?php echo $cat['destinations_title']; ?></td> 
-                        <td><?php echo $cat['destinations_description']; ?></td> 
+                        <td style="color:white;"><?php echo $cat['destinations_title']; ?></td> 
+                        <td ><?php echo $cat['destinations_description']; ?></td> 
                         <td><?php echo $cat['destinations_attractions']; ?></td> 
                         <td>
                               <button class="btn btn-warning  edit" data-id="<?php echo $cat['id']; ?>">Edit</button>

@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		<div class="subfooter">
-			<p>2022 &copy; Copyright<b style="color:#c0392b;">   Skymwamoto Tours and Safari.</b> All rights Reserved.</p>
+			<p>2022 &copy; Copyright<b style="color:#FFFFB8;">  Skymwamoto Tours and Safari.</b> All rights Reserved.</p>
 		</div>
 	</footer>
 	

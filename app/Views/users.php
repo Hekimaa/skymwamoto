@@ -10,11 +10,11 @@
   <title>SKYWAMOTO - Admin dashboard</title>
   
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -57,11 +57,11 @@
         <div class="col text-left">
             <button type="button" name="addUser" id="addUser" class="btn btn-info btn-sm">Add User</button>
           </div>
-        <div class="card-body">
+        <div class="card-body" style="background-color:#062C17;">
          
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
+              <thead style="color:white;">
                 <tr>
                   <th>SN</th>
                   <th>FULL NAME</th>
@@ -76,12 +76,12 @@
                       <?php if($users) { ?>
                       <?php foreach($users as $cat): ?>
                         <tr>
-                         <td><?php echo $sn++; ?></td>
+                         <td style="color:white"><?php echo $sn++; ?></td>
                     
                         
-                        <td><?php echo $cat['firstname']; ?>  <?php echo $cat['lastname']; ?></td> 
+                        <td style="color:white"><?php echo $cat['firstname']; ?>  <?php echo $cat['lastname']; ?></td> 
                        
-                        <td><?php echo $cat['email']; ?></td> 
+                        <td style="color:white"><?php echo $cat['email']; ?></td> 
                         <td>
                               <button class="btn btn-warning  edit" data-id="<?php echo $cat['id']; ?>">Edit</button>
                         

@@ -9,12 +9,12 @@
   <meta name="author" content="Ansonika">
   <title>SKYWAMOTO - Admin dashboard</title>
   
-  <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+ <!-- Favicons-->
+ <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -39,8 +39,6 @@
 <body class="fixed-nav sticky-footer" id="page-top">
 
   <?= $this->include('includes/sidebar');?>
-
-  <!-- /Navigation-->
   <!-- /Navigation-->
   <div class="content-wrapper">
     <div class="container-fluid">
@@ -49,7 +47,7 @@
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
-        <li class="breadcrumb-item active">Destinations</li>
+        <li class="breadcrumb-item active">Volunteering</li>
       </ol>
     <!-- Example DataTables Card-->
       <div class="card mb-3">
@@ -57,11 +55,11 @@
         <div class="col text-left">
             <button type="button" name="addDestinations" id="addDestinations" class="btn btn-info btn-sm">Add Volunteering</button>
           </div>
-        <div class="card-body">
+        <div class="card-body" style="background-color:#062C17;">
          
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
+              <thead style="background-color:white;">
                 <tr>
                   <th>SN</th>
                   <th>Image</th>
@@ -77,10 +75,10 @@
                       <?php if($volunteering) { ?>
                       <?php foreach($volunteering as $cat): ?>
                         <tr>
-                         <td><?php echo $sn++; ?></td>
+                         <td style="color:white"><?php echo $sn++; ?></td>
                         <td><img src="<?= base_url('uploads/volunteeringimages/'.$cat['volunteering_image']) ?>" alt="image" width="50px" height="50px"></td> 
                         
-                        <td><?php echo $cat['volunteering_title']; ?></td> 
+                        <td style="color:white;"><?php echo $cat['volunteering_title']; ?></td> 
                         
                         <td><?php echo $cat['volunteering_description']; ?></td> 
                         <td>

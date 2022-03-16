@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>SKYWAMOTO - Admin dashboard</title>
+  <title>Enquire</title>
   
   <!-- Favicons-->
-  <link rel="shortcut icon" href="<?= base_url()?>/skytour_admin/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" type="image/x-icon" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?= base_url()?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="<?=  base_url() ?>/skytour_admin/img/favicons.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?=  base_url() ?>/skytour_admin/img/apple-touch-icon-144x144-precomposed.png">
    <!-- WYSIWYG Editor -->
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/summernote/summernote-bs4.min.css">
    <link rel="stylesheet" href="<?=  base_url() ?>/skytour_admin/css/sweetalert2.css">
@@ -40,7 +40,7 @@
 
   <?= $this->include('includes/sidebar');?>
 
-  <div class="content-wrapper">
+  <div class="content-wrapper" style="background-color:#062C17;">
     <div class="container-fluid">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
@@ -49,9 +49,9 @@
         </li>
         <li class="breadcrumb-item active">Bookings Enquire List</li>
       </ol>
-    <div class="box_general">
+    <div class="box_general" style="background-color:#062C17;">
       <div class="header_box">
-        <h2 class="d-inline-block">Enquire list</h2>
+        <h2 class="d-inline-block"><p style="color:white;">Enquire list</p></h2>
         <div class="filter">
           <div class="styled-select short">
             <select name="orderby">
@@ -63,15 +63,15 @@
           </div>
         </div>
       </div>
-      <div class="list_general">
+      <div class="">
         <ul>
-          <li>
+          <li  style="color:aliceblue">
 
                 <?php if($enquire) { ?>
                 <?php foreach($enquire as $cat): ?>
 
             
-            <h4><?php echo $cat['enquire']; ?></h4>
+            <h4 ><p style="color:red;"><?php echo $cat['enquire']; ?></p></h4>
             <ul class="booking_list">
 
                 <li class="pull-right"><a href="#0" class="btn_1 gray approve"><i class="fa fa-fw fa-check-circle-o"></i> Approve</a></li>
